@@ -1,10 +1,11 @@
 /* Navbar superior */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* 👈 todo alineado a la izquierda */
   align-items: center;
-  background: #1e293b; /* azul oscuro elegante */
-  color: #fff;
+  gap: 15px;
+  background: #0f172a; /* azul oscuro */
+  color: #f8fafc;     /* blanco */
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -16,6 +17,7 @@
 .logo {
   font-size: 20px;
   font-weight: bold;
+  color: #f8fafc; /* blanco */
 }
 
 .menu-btn {

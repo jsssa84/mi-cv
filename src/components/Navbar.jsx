@@ -8,11 +8,12 @@ function Navbar() {
   return (
     <>
       <header className="navbar">
-        <h1 className="logo">Mi Portfolio</h1>
         <button className="menu-btn" onClick={() => setOpen(!open)}>
           ☰
         </button>
+        <h1 className="logo">Mi Portfolio</h1>
       </header>
+
 
       <aside className={`sidebar ${open ? "open" : ""}`}>
         <button className="close-btn" onClick={() => setOpen(false)}>✕</button>

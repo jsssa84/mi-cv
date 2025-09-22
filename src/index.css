@@ -97,11 +97,11 @@ button:hover {
 
 /* Footer */
 footer {
-  background: #0f172a; /* azul muy oscuro */
-  color: #f1f5f9;      /* blanco suave */
+  margin-top: auto; /* empuja al fondo */
+  background: #0f172a;
+  color: #f8fafc;
   text-align: center;
   padding: 20px;
-  margin-top: auto;    /* se empuja al fondo */
 }
 
 footer a {
