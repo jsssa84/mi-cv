@@ -1,26 +1,21 @@
+import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
+
 function Footer() {
   return (
-    <footer style={{
-      background: "#f4f4f4",
-      padding: "20px",
-      textAlign: "center",
-      marginTop: "40px"
-    }}>
+    <footer>
       <p>© {new Date().getFullYear()} Jesús Santana Álvarez</p>
       <p>
-        📧 <a href="mailto:jesus.santanaalvarez12@gmail.com">
+        <FaEnvelope />{" "}
+        <a href="mailto:jesus.santanaalvarez12@gmail.com">
           jesus.santanaalvarez12@gmail.com
         </a>
       </p>
       <p>
-        📱 <a href="tel:+34606092069">606092069</a>
+        <FaPhone /> <a href="tel:+34606092069">606092069</a>
       </p>
       <p>
-        🔗 <a
-          href="https://www.linkedin.com/in/jesús-santana-á lvarez-20b634220"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <FaLinkedin />{" "}
+        <a href="https://www.linkedin.com/in/jesús-santana-á lvarez-20b634220" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
       </p>
@@ -29,5 +24,3 @@ function Footer() {
 }
 
 export default Footer;
-
-

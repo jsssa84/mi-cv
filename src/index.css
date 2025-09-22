@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: "Segoe UI", system-ui, Avenir, Helvetica, Arial, sans-serif;
   background: #f8fafc; /* gris claro */
@@ -12,6 +16,13 @@ body {
   line-height: 1.6;
   padding-top: 60px; /* espacio para navbar fija */
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* el main ocupa todo el espacio disponible */
+main {
+  flex: 1;
 }
 
 /* Enlaces */
@@ -86,9 +97,20 @@ button:hover {
 
 /* Footer */
 footer {
-  background: #1e293b;
-  color: #e2e8f0;
+  background: #0f172a; /* azul muy oscuro */
+  color: #f1f5f9;      /* blanco suave */
   text-align: center;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: auto;    /* se empuja al fondo */
 }
+
+footer a {
+  color: #38bdf8;      /* celeste */
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #0ea5e9;      /* celeste más intenso */
+  text-decoration: underline;
+}
+
