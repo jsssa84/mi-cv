@@ -23,7 +23,7 @@ function App() {
           <Route path="/cursos" element={<Cursos />} />
         </Routes>
       </main>
-      <Footer />
+      <Footer className="footer"/>
     </div>
   );
 }
